@@ -22,7 +22,7 @@ public class Main {
 
         Desmos_Driver.startState();
 
-        File dir = new File("C:\\Users\\tomas\\IdeaProjects\\DesmosPictureGraphing\\input\\run_file");
+        File dir = new File("path to the run file");
         File[] files = (dir.listFiles());
         int fileIndex = 0;
         for (File file : files) {
